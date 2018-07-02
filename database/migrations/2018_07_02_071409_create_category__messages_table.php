@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateInternEventsTable extends Migration
+class CreateCategoryMessagesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,10 @@ class CreateInternEventsTable extends Migration
      */
     public function up()
     {
-        Schema::create('intern_events', function (Blueprint $table) {
+        Schema::create('category__messages', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('InternId');
-            $table->integer('EventId');
+            $table->integer('MessageId');
+            $table->integer('CategoryId');
             $table->timestamps();
         });
     }
@@ -28,6 +28,6 @@ class CreateInternEventsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('intern_events');
+        Schema::dropIfExists('category__messages');
     }
 }
