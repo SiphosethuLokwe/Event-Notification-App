@@ -20,6 +20,7 @@
         </div>
     </div>
 </div>
+@endsection
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -42,46 +43,7 @@
     <div id="wrapper">
     
         <!-- /. NAV TOP  -->
-        <nav class="navbar-default navbar-side" role="navigation">
-            <div class="sidebar-collapse">
-                <ul class="nav" id="main-menu">
-                 
 
-
-                    <li class="active-link">
-                        <a href="index.html" ><i class="fa fa-desktop "></i>Dashboard <span class="badge">Included</span></a>
-                    </li>
-                   
-
-                    <li>
-                        <a href="ui.html"><i class="fa fa-table "></i>UI Elements  <span class="badge">Included</span></a>
-                    </li>
-                    <li>
-                        <a href="blank.html"><i class="fa fa-edit "></i>Blank Page  <span class="badge">Included</span></a>
-                    </li>
-
-
-                    <li>
-                        <a href="#"><i class="fa fa-qrcode "></i>My Link One</a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-bar-chart-o"></i>My Link Two</a>
-                    </li>
-
-                    <li>
-                        <a href="#"><i class="fa fa-edit "></i>My Link Three </a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="fa fa-table "></i>My Link Four</a>
-                    </li>
-                     <li>
-                        <a href="#"><i class="fa fa-edit "></i>My Link Five </a>
-                    </li>
-                    
-                </ul>
-                            </div>
-
-        </nav>
         <!-- /. NAV SIDE  -->
         <div id="page-wrapper" >
             <div id="page-inner">
@@ -463,5 +425,3 @@
 </body>
 </html>
 
-
-@endsection
